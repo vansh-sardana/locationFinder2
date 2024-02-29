@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location Address Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Location Address Finder</h1>
+        <p>Enter Latitude and Longitude:</p>
+        <input type="text" id="lat" placeholder="Latitude">
+        <input type="text" id="lng" placeholder="Longitude">
+        <button onclick="getAddressAndMapLink()">Get Address and Map Link</button>
+        <p id= "AddBar">Address: <span id="address"></span></p>
+        <p id= "LinkBar">Google Map Link: <a id="mapLink" target="_blank" href=""></a></p>
+    </div>
+  <footer>
+    <p>&copy; 2023 Vansh Sardana & Shaurya Mehra</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
